@@ -1,0 +1,5 @@
+Using Sublime Text 2, with githubs git for windows application (Winforms windows 8 based?)
+
+
+Seems to work for now. Cygwin = pain. (ssh not working correctly)
+
