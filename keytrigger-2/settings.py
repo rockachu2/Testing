@@ -8,3 +8,4 @@ false = False
 DEBUG = True ## testing
 
 passwordPrompt = "Password?:"
+authDir = "auth/"
