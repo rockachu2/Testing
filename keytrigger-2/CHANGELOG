@@ -4,3 +4,17 @@ V 0.1 --------
 created basic python module setup
 added support for external modules WARNING INSECURE
 added password hashing (with salt)
+
+
+Basic program flow as follows:
+
+main.py runs in background, triggers auth.py on three-stroke keypress
+auth asks for password, checks against stored hash + salt (loads salt from file) (neither provided)
+if fails, kills itself and back to desktop
+if successful, kill self after triggering opening of term.py
+
+term.py loads modules using modulepointer.py
+
+
+current commands:
+None.  
