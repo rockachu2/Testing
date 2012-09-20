@@ -6,3 +6,5 @@ FALSE = False
 false = False
 
 DEBUG = True ## testing
+
+passwordPrompt = "Password?:"

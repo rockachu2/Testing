@@ -1,0 +1,6 @@
+# CHANGELOG
+
+V 0.1 --------
+created basic python module setup
+added support for external modules WARNING INSECURE
+added password hashing (with salt)
