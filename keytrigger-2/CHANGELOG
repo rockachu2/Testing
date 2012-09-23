@@ -1,5 +1,18 @@
 # CHANGELOG
 
+
+V 0.1a --------
+
+bugfix:
+ actually runs
+
+current commands:
+	exit, runCode
+
+
+comands and functins should be named as this: 
+	__moduleName__fuctionName()
+
 V 0.1 --------
 created basic python module setup
 added support for external modules WARNING INSECURE

@@ -22,6 +22,6 @@ while not __exiting__:
 		print "Unknown command:", __command__[0]
 
 	try:
-		__running__()
+		__running__(__command__[1:])
 	except Exception, e:
 		print "Unhandled exception:", e

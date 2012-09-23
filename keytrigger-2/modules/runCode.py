@@ -1,9 +1,9 @@
 
 
 ## basic python interpreter module.
-aliases.update({":", runCode})
+aliases.update({":", __runCode__runCode})
 
-def runCode(code):
+def __runCode__runCode(code):
 	try:
 		exec code
 	except Exception, e:
