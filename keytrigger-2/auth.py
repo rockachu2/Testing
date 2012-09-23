@@ -1,7 +1,7 @@
 from imports import *
 
 import hashlib
-import getpass
+from getpass import getpass
 if DEBUG:
 	print "Importing successful"
 
@@ -27,6 +27,8 @@ try:
 	hash = hashFile.readline()
 
 	if DEBUG: print hash, salt, hashFile, saltFile
+
+
 
 	hashObject = hashlib.sha512()
 	hashObject.update(salt)
