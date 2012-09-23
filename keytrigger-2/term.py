@@ -7,3 +7,14 @@ from imports import *
 
 from modulepointer import *
 
+## mainloop
+
+__exiting__ = False
+
+while not __exiting__:
+	__command__ = raw_input(interpreter.symbol)
+
+	__command__ = __command__.split() ## splits at whitespace
+
+	try:
+		__running__ = aliases[__command__]

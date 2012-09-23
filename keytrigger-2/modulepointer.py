@@ -2,6 +2,8 @@
 # 
 from imports import *
 
+aliases = {}
+
 __moduleList__ = os.listdir("modules")
 for module in __moduleList__:
 	try:
