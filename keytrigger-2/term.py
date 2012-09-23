@@ -17,4 +17,11 @@ while not __exiting__:
 	__command__ = __command__.split() ## splits at whitespace
 
 	try:
-		__running__ = aliases[__command__]
+		__running__ = aliases[__command__[0]]
+	except:
+		print "Unknown command:", __command__[0]
+
+	try:
+		__running__()
+	except Exception, e:
+		print "Unhandled exception:", e
