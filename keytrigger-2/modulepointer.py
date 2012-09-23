@@ -13,6 +13,7 @@ for module in __moduleList__:
 		exec moduleKey
 	except Exception, e:
 		if DEBUG:
+			print "Failed to load module:", module, ":"
 			print e
 		else:
 			pass
