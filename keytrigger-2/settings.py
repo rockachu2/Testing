@@ -9,3 +9,7 @@ DEBUG = True ## testing
 
 passwordPrompt = "Password?:"
 authDir = "auth/"
+
+class interpreterClass(object):
+	symbol = ":>"
+interpreter = interpreterClass()
